@@ -1,4 +1,4 @@
-This rrepo is the frontend for react1. A project created with React, Vite and Tailwind CSS.
+This repo is the frontend for react1. A project created with React, Vite and Tailwind CSS.
 
 There is an associated backend located at [https://github.com/gustav87/react1-backend](https://github.com/gustav87/react1-backend).
 You also need a Mongo DB instance running on localhost port 27017.
