@@ -3,9 +3,9 @@ const backend_url = import.meta.env.VITE_BACKEND_URL as string;
 function Test() {
   return <>
     <div className="flex justify-around w-2/4">
-      <p className="cursor-pointer react1-clickable" onClick={getBoyNames}>Get boy names</p>
-      <p className="cursor-pointer react1-clickable" onClick={sendTestBackendWeather}>Test backend Weather</p>
-      <p className="cursor-pointer react1-clickable" onClick={sendTestBackend1}>Test backend 1</p>
+      <p className="cursor-pointer citrus-clickable" onClick={getBoyNames}>Get boy names</p>
+      <p className="cursor-pointer citrus-clickable" onClick={sendTestBackendWeather}>Test backend Weather</p>
+      <p className="cursor-pointer citrus-clickable" onClick={sendTestBackend1}>Test backend 1</p>
     </div>
   </>
 

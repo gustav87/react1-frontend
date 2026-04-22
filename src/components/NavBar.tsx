@@ -5,8 +5,8 @@ import useLoginStore from '@/store/loginStore';
 
 function NavBar() {
   const path = useLocation().pathname;
-  const setSelected = (incoming: string): string => path.includes(incoming) ? "text-blue-600 react1-navbar__disabled" : "";
-  const navItemStyle = "p-2 react1-clickable";
+  const setSelected = (incoming: string): string => path.includes(incoming) ? "text-blue-600 citrus-navbar__disabled" : "";
+  const navItemStyle = "p-2 citrus-clickable";
   const username = useLoginStore((state) => state.username);
   const resetLogin = useLoginStore((state) => state.resetLogin);
 

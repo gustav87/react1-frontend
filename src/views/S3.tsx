@@ -11,9 +11,9 @@ function S3() {
 
   return <>
     <div className="flex justify-around w-2/4">
-      <p className="cursor-pointer react1-clickable" onClick={sendTestS3}>Test S3</p>
-      <p className="cursor-pointer react1-clickable" onClick={listS3Files}>List S3 files</p>
-      {/* <p className="cursor-pointer react1-clickable" onClick={() => uploadToS3ViaFileName("2023-09-02_11-43.png")}>Upload to S3</p> */}
+      <p className="cursor-pointer citrus-clickable" onClick={sendTestS3}>Test S3</p>
+      <p className="cursor-pointer citrus-clickable" onClick={listS3Files}>List S3 files</p>
+      {/* <p className="cursor-pointer citrus-clickable" onClick={() => uploadToS3ViaFileName("2023-09-02_11-43.png")}>Upload to S3</p> */}
     </div>
     <div className="mt-6 flex justify-around w-2/4">
       <div className="w-2/5">
@@ -29,7 +29,7 @@ function S3() {
         <div className="text-green-500">The following files are available on S3. Click to download.</div>
         <div>
           {files.map((file) => {
-            return <div className="cursor-pointer react1-clickable" onClick={() => downloadFromS3(file.name)} key={file.name}>{file.name}</div>
+            return <div className="cursor-pointer citrus-clickable" onClick={() => downloadFromS3(file.name)} key={file.name}>{file.name}</div>
           })}
         </div>
       </div>

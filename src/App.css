@@ -21,16 +21,16 @@
   color: #61dafb;
 }
 
-.react1-clickable {
+.citrus-clickable {
   cursor: pointer;
 }
 
 /* text-blue-600 */
-.react1-clickable:hover {
+.citrus-clickable:hover {
   color: rgb(37 99 235);
 }
 
 /* text-blue-800 */
-.react1-clickable:active {
+.citrus-clickable:active {
   color: rgb(30 64 175);
 }

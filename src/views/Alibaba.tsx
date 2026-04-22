@@ -11,7 +11,7 @@ function Alibaba() {
 
   return <>
     <div className="flex justify-around w-2/4">
-      <p className="cursor-pointer react1-clickable" onClick={listAlibabaFiles}>List Alibaba files</p>
+      <p className="cursor-pointer citrus-clickable" onClick={listAlibabaFiles}>List Alibaba files</p>
     </div>
     <div className="mt-6 flex justify-around w-2/4">
       <div>
@@ -28,7 +28,7 @@ function Alibaba() {
         <div>
           {files.map((file) => {
             return <div className="flex justify-content-center" key={file.name}>
-              <div className="cursor-pointer react1-clickable mr-5" onClick={() => downloadFromAlibaba(file.name)}>{file.name}</div>
+              <div className="cursor-pointer citrus-clickable mr-5" onClick={() => downloadFromAlibaba(file.name)}>{file.name}</div>
               <button className="hover:text-red-500 active:text-red-800" onClick={() => deleteFileOnAlibaba(file.name)}>Delete</button>
             </div>
           })}

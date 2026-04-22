@@ -73,7 +73,7 @@ function Contact() {
   }
 
   const disabledClasses =  "pointer-events-none cursor-default text-gray-600";
-  const submitButtonClasses = `mr-5 react1-clickable cursor-pointer border-solid border-2 p-2 border-slate-600 ${disabled ? disabledClasses : ""}`;
+  const submitButtonClasses = `mr-5 citrus-clickable cursor-pointer border-solid border-2 p-2 border-slate-600 ${disabled ? disabledClasses : ""}`;
 
   return <>
     <div>

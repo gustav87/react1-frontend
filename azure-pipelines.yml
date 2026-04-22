@@ -23,7 +23,7 @@ steps:
   displayName: 'Build and push frontend'
   inputs:
     containerRegistry: 'gustav87 Docker Hub'
-    repository: 'gustav87/react1-frontend'
+    repository: 'gustav87/gstav-se-citrus-frontend'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
     buildContext: '**'
