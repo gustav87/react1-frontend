@@ -11,6 +11,7 @@ function Projects() {
       <Link to={RouteNames.PROJECTS_ALIBABA} className="cursor-pointer react1-clickable">Alibaba OSS</Link>
       <Link to={RouteNames.PROJECTS_PAYPAL} className="cursor-pointer react1-clickable">Paypal</Link>
       <Link to={RouteNames.PROJECTS_TEST} className="cursor-pointer react1-clickable">Test</Link>
+      <Link to={RouteNames.PROJECTS_CAROUSEL} className="cursor-pointer react1-clickable">Carousel</Link>
     </div>
     <Outlet/>
   </>

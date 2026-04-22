@@ -17,6 +17,7 @@ import Test from './views/Test';
 import RouteNotFound from './components/RouteNotFound';
 import SignUp from './views/SignUp';
 import Contact from './views/Contact';
+import Carousel from './views/Carousel';
 
 const routes = [
   {
@@ -56,6 +57,10 @@ const routes = [
             path: RouteNames.PROJECTS_TEST,
             element: <Test/>,
           },
+          {
+            path: RouteNames.PROJECTS_CAROUSEL,
+            element: <Carousel/>,
+          },
         ]
       },
       {
@@ -82,7 +87,7 @@ const router = createBrowserRouter(routes);
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>
+  // </React.StrictMode>
 );
